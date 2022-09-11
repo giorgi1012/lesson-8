@@ -1,0 +1,64 @@
+.button {
+    background-color: red;
+    border-radius: 20px;
+    width: 250px;
+    padding: 10px;
+}
+.box {
+    position: relative;
+    height: 650px;
+    width: 100%;
+}
+/* .bg-wraper {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+} */
+.img {
+    height: 100%;
+}
+.cover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+
+}
+.bg-image {
+    background-image: url(../img/tree.jpg);
+    height: 450px;
+    width: 600px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.title-h5 {
+    color: white;
+    font-size: 40px;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.title-h5:hover{
+    color: aqua;
+    background-color: pink;
+}
+.animation-block {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    animation-name: cube;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes cube {
+    from { top: 0; background-color: blue; border-radius: 20px;}
+    to {top: 200px; background-color: red; border-radius: 80px;}
+} 
